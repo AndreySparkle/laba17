@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Laba 17</string>
+    <string name="app_logo">Application logo</string>
+    <string name="onboarding_image">Onboarding illustration</string>
+    <string name="onboarding_title_one">Welcome</string>
+    <string name="onboarding_description_one">A simple application that helps you get started quickly.</string>
+    <string name="onboarding_title_two">Easy to use</string>
+    <string name="onboarding_description_two">Clear screens and familiar controls keep every action simple.</string>
+    <string name="onboarding_title_three">Ready to begin</string>
+    <string name="onboarding_description_three">Sign in and continue to your Home screen.</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Password</string>
+    <string name="show_password">Show password</string>
+    <string name="hide_password">Hide password</string>
+    <string name="error_title">Sign In error</string>
+    <string name="error_empty_fields">Fill in both e-mail and password fields.</string>
+    <string name="error_invalid_email">Enter an e-mail like name@domain.ru using only lowercase Latin letters and digits. The domain zone must contain at least three letters.</string>
+    <string name="ok">OK</string>
+    <string name="home">Home</string>
+</resources>
