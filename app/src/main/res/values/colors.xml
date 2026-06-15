@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#4F46E5</color>
+    <color name="primary_dark">#3730A3</color>
+    <color name="background">#FFFDFB</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="border">#D1D5DB</color>
+    <color name="indicator_inactive">#C7C9D9</color>
+    <color name="illustration_one">#C7D2FE</color>
+    <color name="illustration_two">#BAE6FD</color>
+    <color name="illustration_three">#BBF7D0</color>
+    <color name="shop_background">#F5F7FB</color>
+    <color name="discount">#EF4444</color>
+    <color name="cart">#E0E7FF</color>
+    <color name="selected_card">#4F46E5</color>
+    <color name="shoe_black">#2F3441</color>
+    <color name="shoe_white">#E5E7EB</color>
+    <color name="shoe_blue">#3B82F6</color>
+    <color name="shoe_red">#EF4444</color>
+    <color name="shoe_green">#22C55E</color>
+</resources>
