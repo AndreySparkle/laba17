@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shop_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/filtersBackButton"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/back" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/filters"
+                android:textColor="@color/text_primary"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/discountSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/discount_only"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/FilterSectionTitle"
+            android:text="@string/price" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/minPrice"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:background="@drawable/input_background"
+                android:hint="@string/price_from"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/maxPrice"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/input_background"
+                android:hint="@string/price_to"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:padding="14dp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/FilterSectionTitle"
+            android:text="@string/color" />
+
+        <CheckBox
+            android:id="@+id/colorBlack"
+            style="@style/FilterCheckBox"
+            android:text="@string/black" />
+
+        <CheckBox
+            android:id="@+id/colorWhite"
+            style="@style/FilterCheckBox"
+            android:text="@string/white_color" />
+
+        <CheckBox
+            android:id="@+id/colorBlue"
+            style="@style/FilterCheckBox"
+            android:text="@string/blue" />
+
+        <CheckBox
+            android:id="@+id/colorRed"
+            style="@style/FilterCheckBox"
+            android:text="@string/red" />
+
+        <CheckBox
+            android:id="@+id/colorGreen"
+            style="@style/FilterCheckBox"
+            android:text="@string/green" />
+
+        <TextView
+            style="@style/FilterSectionTitle"
+            android:text="@string/shoe_type" />
+
+        <CheckBox
+            android:id="@+id/categorySport"
+            style="@style/FilterCheckBox"
+            android:text="@string/sport" />
+
+        <CheckBox
+            android:id="@+id/categoryCasual"
+            style="@style/FilterCheckBox"
+            android:text="@string/casual" />
+
+        <Button
+            android:id="@+id/applyFilterButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/apply_filter" />
+    </LinearLayout>
+</ScrollView>
